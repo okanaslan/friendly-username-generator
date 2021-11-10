@@ -1,5 +1,4 @@
-// TODO: move onto one line.
-const animalsList = [
+export const animals = [
     "aardvark",
     "albatross",
     "alligator",
@@ -225,6 +224,4 @@ const animalsList = [
     "wren",
     "yak",
     "zebra",
-]
-
-module.exports = animalsList;
+];
