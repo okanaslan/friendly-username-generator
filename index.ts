@@ -1,3 +1,3 @@
-import { generateRandomUsername } from './src/generateRandomUserNames';
+import { UsernameUtils } from "./src/generateRandomUserNames";
 
-export  = generateRandomUsername;
+export const generateRandomUsername = UsernameUtils.generateRandomUsername;

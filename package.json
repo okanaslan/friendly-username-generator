@@ -1,8 +1,8 @@
 {
     "name": "friendly-username-generator",
-    "version": "1.2.0",
+    "version": "2.0.0",
     "description": "A non-explicit random username generator",
-    "main": "index.js",
+    "main": "index.ts",
     "repository": {
         "type": "git",
         "url": "https://github.com/EvanPeterson1324/friendly-username-generator"
@@ -13,13 +13,10 @@
     "author": "Evan Peterson",
     "license": "ISC",
     "devDependencies": {
-        "@types/jest": "^27.0.2",
-        "jest": "^27.3.1",
-        "prettier": "^2.4.1",
-        "ts-jest": "^27.0.7",
-        "typescript": "^4.4.4"
-    },
-    "jest": {
-        "verbose": true
+        "@types/jest": "^27.0.3",
+        "jest": "^27.4.3",
+        "prettier": "^2.5.1",
+        "ts-jest": "^27.1.0",
+        "typescript": "^4.5.2"
     }
 }

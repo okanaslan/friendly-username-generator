@@ -1,19 +1,19 @@
-import { generateRandomUsername } from "../src/generateRandomUserNames";
+import { UsernameUtils } from "../src/generateRandomUserNames";
 
 describe("username generation tests", () => {
     it("should generate a random username with no options", () => {
-        const username = generateRandomUsername();
+        const username = UsernameUtils.generateRandomUsername();
         expect(username).toEqual(expect.any(String));
     });
 
     it("should generate username if options object has no keys", () => {
-        const username = generateRandomUsername();
+        const username = UsernameUtils.generateRandomUsername();
 
         expect(username).toEqual(expect.any(String));
     });
 
     it("should set defaults when options are explicitly passed", () => {
-        const usernameWithDefaultOptions = generateRandomUsername();
+        const usernameWithDefaultOptions = UsernameUtils.generateRandomUsername();
         const matchNumbersRegex = /[0-9]/g;
 
         expect(usernameWithDefaultOptions).toEqual(expect.any(String));
